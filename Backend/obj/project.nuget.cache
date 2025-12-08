@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DY7j0j3/qiA=",
+  "dgSpecHash": "LQP3CNqPTNA=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",

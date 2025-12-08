@@ -1,7 +1,6 @@
 using Backend.DTOs;
 using Backend.Models;
 using Microsoft.EntityFrameworkCore;
-using BCrypt.Net;
 
 namespace Backend.Services;
 
@@ -23,7 +22,7 @@ public class AuthService
         {
             Email = dto.Email,
             Name = dto.Name,
-            PasswordHash = BCrypt.HashPassword(dto.Password)
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
         };
 
         _db.Users.Add(user);
@@ -34,7 +33,7 @@ public class AuthService
     public async Task<User?> LoginAsync(LoginDto dto)
     {
         var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
-        if (user == null || !BCrypt.Verify(dto.Password, user.PasswordHash))
+        if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
             return null;
 
         return user;

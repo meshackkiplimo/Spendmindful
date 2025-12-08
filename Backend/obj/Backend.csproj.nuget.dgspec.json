@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj": {}
+    "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj": {
+    "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Administrator\\personal\\spendmindful\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
