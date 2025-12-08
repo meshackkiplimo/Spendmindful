@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "9xSP3M3LsM4=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package BCrypt.Net-Next. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "filePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "libraryId": "BCrypt.Net-Next",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Authentication.JwtBearer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "filePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "filePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Npgsql.EntityFrameworkCore.PostgreSQL. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "filePath": "C:\\Users\\Administrator\\personal\\spendmindful\\Backend\\Backend.csproj",
+      "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
